@@ -13,4 +13,9 @@ export class AppComponent {
   constructor(private toastrService:CustomToastrService){
     toastrService.message("Merhaba","Burak", {messageType:ToastrMessageType.Success,position:ToastrPosition.BottomRight});
   }
+
+
+
+
 }
+
