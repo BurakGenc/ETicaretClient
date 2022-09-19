@@ -19,13 +19,13 @@ export class ProductsComponent extends BaseComponent implements OnInit {
 
   ngOnInit(): void {
     this.showSpinner(SpinnerType.BallSpinClocWise);
-    this.httpClientService
+   /* this.httpClientService
       .get({
         controller: 'products',
       })
       .subscribe((data) => console.log(data));
+  */
    
-    this.httpClientService.delete({controller:"products"},"87f12f0d-c223-4af0-9ced-d5d6f904763c").subscribe();
 
     }
 }
